@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forever Pets</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/load.css">
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- firebase -->
+	<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+	<!-- jQuery -->
+  	<script src="https://code.jquery.com/jquery.js"></script>
+
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/nav.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default container-fluid">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" id="logo"></span></a>
+    </div>
+	<div class="nav navbar-nav navbar-right container-fluid">
+		<form class="navbar-form navbar-left">
+		  <div class="input-group">
+		    <input type="text" class="form-control" placeholder="Search">
+		    <div class="input-group-btn">
+		      <button class="btn btn-default" type="submit">
+		        <i class="glyphicon glyphicon-search"></i>
+		      </button>
+		    </div>
+		  </div>
+		</form>
+		<div class="navbar-right text-center">
+			<ul class="nav navbar-nav navbar-right">
+		       <li class="link-img-container"><a href="#"><img src="assets/images/facebook.png" class="link-img"></a></li>
+		      <li class="link-img-container"><a href="#"><img src="assets/images/twitter.png" class="link-img"></a></li>
+		      <li class="link-img-container"><a href="#"><img src="assets/images/google.png" class="link-img"></a></li>
+	    	</ul>
+		</div>
+	</div>
+  </div>
+</nav>
+<main class="row">
+		<div class="col-md-2" id="second-nav">
+		<div class="container-fluid">
+				<h2>Navigation</h2>
+				<hr>
+		</div>
+			<div class="second-nav-item">
+				<a href="pet-matching.html">Pet matching</a>
+			</div>
+			<div class="second-nav-item">
+				<a href="adoptions.html">Adoptions</a>
+			</div>
+			<div class="second-nav-item">
+				<a href="caresheet.html">Animal Caresheets</a>
+			</div>
+			<div class="second-nav-item">
+				<a href="general-videos.html">General Videos</a>
+			</div>
+	</div>
+	
+	<div class="col-md-10" >
+		<div class="container-fluid" id="main-content">
+			<h3>Find out what pets are right for you</h3>
+			<p>Complete the form below to to find out which animals best match your style</p>
+			<hr class="separation">
+			<form>
+			  <div class="form-group">
+				  <label for="budget">What is your monthly budget for your pet</label>
+				  <select class="form-control" id="budget">
+				    <option>$35+</option>
+				    <option>$75+</option>
+				    <option>$120+</option>   
+				  </select>
+			</div>
+			  
+			  <div class="form-group">
+				  <label for="living-situation">Select the option that best fits your living situation</label>
+				  <select class="form-control" id="living-situation">
+				  	<option class="active">What type of home do you live in?</option>
+				    <option>1. Apartment/Condo</option>
+				    <option>2. Townhouse</option>
+				    <option>3. House</option>   
+				  </select>
+			</div>
+			<div class="form-group">
+				<label for="myRange">On a scale 1 - 10, how active is your lifestyle?</label>
+				<div id="slidecontainer">
+			 	 <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+			 	 <p id="demo"></p>
+				</div>
+			</div>
+
+			
+			<div class="form-group">
+				<!-- <label>Select the types of pets</label><br>
+				<label class="checkbox-inline"><input type="checkbox" value="">Dogs</label>
+
+
+				<label class="checkbox-inline"><input type="checkbox" value="">Cats</label>
+				<label class="checkbox-inline"><input type="checkbox" value="">insects</label>
+				<label class="checkbox-inline"><input type="checkbox" value="">Reptiles</label> -->
+			
+
+			
+			<button type="submit" id="submit" class="btn btn-default">Submit</button>
+			</form>
+			<img class="img img-responsive" src="assets/images/puppy_line.png">
+		</div>
+	</div>
+	
+	
+	
+</main>
+
+<script type="text/javascript">
+	var slider = document.getElementById("myRange");
+	var output = document.getElementById("demo");
+	output.innerHTML = slider.value; // Display the default slider value
+
+	// Update the current slider value (each time you drag the slider handle)
+	slider.oninput = function() {
+	    output.innerHTML = this.value;
+	};
+</script>
+
+<script type="text/javascript" src="assets/javascript/pet-matching.js"></script>
+
+</body>
+</html>

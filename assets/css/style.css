@@ -1,0 +1,214 @@
+body{
+	height:1200px;
+	padding-bottom: 0;
+}
+.navbar{
+	background: rgb(63,158,183);
+	margin-bottom: 0;
+}
+
+main{
+	margin-top: 0;
+	height:100%;
+
+}
+#second-nav{
+	background-color: rgb(246,246,246);
+	
+
+}
+
+#logo{
+	width:200px;
+	height:50px;
+	padding-bottom:20px;
+}
+
+.animal-div{
+	float:left;
+	width:100%;
+	margin:10px;
+	padding:10px;
+	color:white !important;
+	cursor:pointer;
+	background-color:#738F9C;
+}
+
+.animal-div a{
+	text-decoration: none;
+	color:white;
+	font-weight:bold;
+}
+
+.animal-div img{
+	width:100px;
+	height:100px;
+	margin-right:20px;
+	float:left;
+}
+
+#adopt-div{
+	background-color:#738F9C;
+	color:white;
+	padding:10px;
+	border:solid !important;
+	border-width:1px !important;
+	border-color:black !important;
+}
+#adopt-btn{
+	width:150px;
+}
+.result-link, .result-link:hover{
+	text-decoration:none;
+}
+
+.second-nav-item {
+	margin-bottom: 10px;
+	transition:background-color 0.3s ease;
+}
+.second-nav-item a {
+	font-size:18px;
+
+}
+.second-nav-item:hover {
+	background-color:rgb(63,158,183);
+
+}
+
+.adoption-div{
+	float:left;
+	margin:10px;
+	cursor:pointer;
+}
+
+.adoption-div img{
+	width:200px;
+	height:200px;
+}
+
+.modal-body img{
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+	margin-right:10px;
+	float:left;
+}
+
+.modal-footer{
+	clear:both;
+}
+
+.general-video{
+	margin:10px;
+	float:left;
+	cursor:pointer;
+}
+
+.video-iframe{
+	pointer-events: none;
+}
+
+.modal-iframe{
+	width:100%;
+	height:600px;
+}
+
+.adoption-div h4{
+	background-color: rgb(63,158,183);
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    width:200px;
+    height:35px;
+}
+
+#previous-btn{
+	float:left;
+	display:none;
+}
+#next-btn{
+	float:right;
+	display:none;
+}
+
+.second-nav-item a{
+	padding: 10px;
+	color: black;
+	text-decoration:none;
+
+}
+.jumbotron{
+	background-image: url('../images/Pasted image at 2017_11_04 11_04 AM.png');
+	background-repeat:no-repeat;
+	background-size:100% 150%;
+	width:75%;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    height: 400px;
+}
+#get-started-btn{
+	padding-top:170px;
+}
+
+.jumbotron h1, .jumbotron p{
+	text-align:center;
+	color:white;
+}
+
+.adoption-form{
+	width:500px;
+}
+
+#next-btn-div{
+	clear:left;
+}
+
+.link-img{
+	width: 30px;
+}
+
+
+#main-video{
+	width: 80%;
+	height: 450px;
+}
+#paw{
+	width: 30px;
+}
+@media screen and (min-width: 992px) {
+
+	#main-content{
+		width: 80%;
+	}
+	#second-nav{
+		min-height: 900px;
+
+	
+}
+}
+
+@media screen and (max-width: 992px) {
+	#second-nav{
+		max-height: 250px;
+
+	
+}
+
+
+@media screen and (max-width: 768px) {
+.link-img-container{
+
+width:33%;
+float:left;
+}
+
+#second-nav{
+	max-height: 250px;
+}
+
+@media screen and (max-width: 640px) {
+	#second-nav{
+		max-height: 250px;
+	}
+}

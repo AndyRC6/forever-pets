@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forever Pets - Pet Matching</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<script type="text/javascript" src="assets/javascript/nav.js"></script>
+	<script type="text/javascript" src="assets/javascript/adopt.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default container-fluid">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" id="logo"></span></a>
+    </div>
+	<div class="nav navbar-nav navbar-right container-fluid">
+		<form class="navbar-form navbar-left">
+		  <div class="input-group">
+		    <input type="text" class="form-control" placeholder="Search">
+		    <div class="input-group-btn">
+		      <button class="btn btn-default" type="submit">
+		        <i class="glyphicon glyphicon-search"></i>
+		      </button>
+		    </div>
+		  </div>
+		</form>
+		<div class="navbar-right text-center">
+			<ul class="nav navbar-nav navbar-right">
+		       <li class="link-img-container"><a href="#"><img src="assets/images/facebook.png" class="link-img"></a></li>
+		      <li class="link-img-container"><a href="#"><img src="assets/images/twitter.png" class="link-img"></a></li>
+		      <li class="link-img-container"><a href="#"><img src="assets/images/google.png" class="link-img"></a></li>
+	    	</ul>
+		</div>
+	</div>
+  </div>
+</nav>
+<main class="row">
+	<div class="col-md-2" id="second-nav">
+		<div class="container-fluid">
+				<h2>Navigation</h2>
+				<hr>
+			</div>
+			<div class="second-nav-item">
+				<a href="pet-matching.html">Pet matching</a>
+			</div>
+			<div class="second-nav-item">
+				<a href="adoptions.html">Adoptions</a>
+			</div>
+			<div class="second-nav-item">
+				<a href="caresheet.html">Animal Caresheets</a>
+			</div>
+			<div class="second-nav-item">
+				<a href="general-videos.html">General Videos</a>
+			</div>
+	</div>
+		
+	<div class="col-md-10" id="main-content">
+		<div class="container-fluid">
+			<form action="" method="POST" role="form" class="adoption-form">
+				<h3>Find Pets for Adoption</h3>
+				<hr>
+				<div class="form-group">
+					<label for="">Animal</label>
+					<input type="text" class="form-control" id="animal" value="dog">
+					<label for="">Breed</label>
+					<input type="text" class="form-control" id="breed">
+					<label for="">Zip Code</label>
+					<input type="text" class="form-control" id="location">
+				</div>
+			
+				
+			
+				<button type="submit" id="btn-submit" class="btn btn-primary">Submit</button>
+			</form>
+			<div id="adoption-info">
+				
+			</div>
+			<div class="row" id="next-btn-div">
+				<button type="button" class="btn btn-default" id="previous-btn">Previous</button>
+				<button type="button" class="btn btn-default" id="next-btn">Next</button>
+				<br>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</main>
+
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

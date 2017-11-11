@@ -1,0 +1,111 @@
+{
+  "dogs" : {
+    "Bernese" : {
+      "Activity" : "Medium-Love the outdoors",
+      "Cost" : "120",
+      "Grooming" : "As a double-coated breed, they also tend to shed, and so require regular brushing. Their gentle, easygoing manner and the need to be close to their people makes them a good fit for families. Using a good pin brush and slicker will make grooming a Berner an easy task to remove mats and tangles. This frequent brushing and the occasional bath will keep their coat in good condition. Their nails should be trimmed regularly to avoid overgrowth and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "A hardy dog that thrives in cold weather, the Bernese Mountain Dog's intelligence and strength originally helped him perform work on the Swiss farms. Today, this versatile breed enjoys playing sports and spending time with his human companions. Although Bernese Mountain Dogs will get along with the entire family, they'll often become more attached to one lucky human.",
+      "Housing" : "House-In the home, they tend to be relaxed, quiet, and affectionate and are eager to please their owners. As long as they are properly exercised, they don’t often bark or act out.",
+      "LifeSpan" : "6-8 years",
+      "Nutrition" : "What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.",
+      "Size" : "Large (Fully grown: 80-110 Lbs.)",
+      "Temperment" : "Good-natured and calm. Good with Children: Yes Good with other Dogs: Yes"
+    },
+    "Boxer" : {
+      "Activity" : "High-Boxers are upbeat and playful.",
+      "Cost" : "75",
+      "Description" : "A well-conditioned Boxer is an awesome sight. A male can stand as high as 25 inches at the shoulder, females a little shorter. Their muscles ripple beneath their short, tight-fitting coat. The dark brown eyes and wrinkled forehead give the face an alert, curious look. Boxers move like the athletes they’re named for: smooth and graceful, but powerful. The coat can be fawn (tan to mahogany-red) or brindle (kind of like tiger stripes), with white markings.",
+      "Grooming" : "A soft bristle brush will help keep the coat in good condition. An occasional bath, especially if they are dirty from romping in the outdoors will also keep them looking their best. Their strong nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "Although it has reached its greatest perfection in Germany during the past hundred years, the Boxer springs from a line of dogs known throughout the whole of Europe since the 16th century. Prior to that time, ancestors of the breed would hardly be recognized as Boxers could they be placed beside modern specimens. Still, evidence points to the Boxer as one of the many descendants of the old fighting dog of the high valleys of Tibet.",
+      "Housing" : "Town-House",
+      "LifeSpan" : "10-12 years.",
+      "Nutrition" : "What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.\"",
+      "Size" : "Med (Fully grown: 60-80 Lbs.)",
+      "Temperment" : "Fun-loving, bright, active and loyal. Good with Children: Yes Good with other Dogs: With Supervision"
+    },
+    "FrenchBulldog" : {
+      "Activity" : "low - You won’t have to worry about a yappy dog bothering your neighbors because Frenchies rarely bark. That said, you can count on them to alert their owners to danger (Look! The UPS guy is coming!). They enjoy daily walks or brief outdoor romps, but because of their short noses, they shouldn’t be exercised on hot, humid days and should have access to cool (preferably air-conditioned) rooms during the warmer months. Besides snoozing the day away, the Frenchie’s favorite hobby is being his owner’s personal lap warmer.",
+      "Cost" : "35",
+      "Description" : "Frenchies are indoor dogs, but require air conditioning in warm weather. While good at alerting their owners to danger (Look! The UPS Guy is coming!), their main role is that of lap warmer. The Frenchie requires minimal exercise and grooming.",
+      "Grooming" : "Routine grooming for the French Bulldog includes regular nail trimming, ear cleaning, brushing to remove excess hair, frequent cleansing of skin folds, and occasional bathing. Their fast-growing nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their bat ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "The French Bulldog comes from its ancestor, the English Bulldog",
+      "Housing" : "apartment",
+      "LifeSpan" : "10-12 years",
+      "Nutrition" : "Depending on the size of your dog as an adult you are going to want to feed them a formula that will cater to their unique digestive needs through the various phases of their life. Many dog food companies have breed-specific formulas for small, medium, large and giant breeds. The French Bulldog is a small breed and has a lifespan of 11 to 13 years.What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.",
+      "Size" : "Small (under 28 pounds)",
+      "Temperment" : "While good at alerting their owners to danger, their main role is that of lap warmer. The Frenchie requires minimal exercise. A crate trained puppy is easier to housebreak. A dog regards its crate as its den, a safe haven and home. If you travel, the dog is safest in his crate in your vehicle and also when you stay in hotels or visit other people. If he should be ill or injured and need to be kept quiet, this is much easier if he is happy in a crate. In warm areas, cooling pads and fresh water should be placed in the crate too. You should take your French Bulldog to training classes as soon as your veterinarian feels he has proper immunity. This will get him accustomed to being around other dogs and people, will teach you how to communicate your wishes to him, and will teach him such basics as walking well on a lead, sitting, staying, and coming on command. Although cute and cuddly-looking, a French Bulldog has a big personality and needs an adequate amount of training to make it a civilized companion. Contrary to the stereotype as “stubborn”, most Frenchies strive to please their owners and are therefore very trainable with the proper motivation (usually food)."
+    },
+    "GermanShepherd" : {
+      "Activity" : "High - These big guys were born to work; they require regular mental and physical exercise",
+      "Cost" : "120",
+      "Description" : "Generally considered dogdom's finest all-purpose workers, German Shepherd Dogs are large, agile, muscular dogs of noble spirit and high intelligence. For such deep-chested, solid dogs, they move quickly with great nimbleness afoot. The German Shepherd's natural gait is a free-and-easy trot, but when duty calls they can turn it up a notch or two and reach great speeds. Standing as high as 26 inches at the shoulder and built like a brick doghouse, the German Shepherd Dog when viewed in outline presents a picture of smooth, graceful curves rather than angles.",
+      "Grooming" : "More brushing can be expected during shedding season. An occasional bath will keep them clean and looking their best. Grooming can be a wonderful bonding experience for you and your pet. Their strong fast-growing nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "Derived from the old breeds of herding and farm dogs, and associated for centuries with man as servant and companion, the German Shepherd Dog has been subject to intensive development. Sponsored by the Verein fur Deutsche Schaferhunde, the parent club of the breed founded in 1899 in Germany, the cult of the Shepherd spread rapidly from about 1914 onward in many parts of the world.",
+      "Housing" : "townhouse",
+      "LifeSpan" : "10 - 12 years",
+      "Nutrition" : "Depending on the size of your dog as an adult you are going to want to feed them a formula that will cater to their unique digestive needs through the various phases of their life. Many dog food companies have breed-specific formulas for small, medium, large and giant breeds. The German Shepherd Dog is a large breed and has a lifespan of 10 to 12 years. What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.",
+      "Size" : "Large",
+      "Temperment" : "He is a loyal family pet and a good guard dog, the ideal choice for many families. He requires regular exercise. Training is one of the most important responsibilities you have as a dog owner. Basic obedience training will make your dog a better companion and strengthen the bond between the two of you. Classes—ranging from puppy or kindergarten to adult and advanced obedience training—are available in most cities, offered by local German Shepherd Dog clubs or all-breed kennel clubs. For the more serious owners, there are competition classes and dog shows."
+    },
+    "GreatDane" : {
+      "Activity" : "Medium-Danes are alert home guardians.",
+      "Cost" : "120",
+      "Description" : "Even people with zero dog knowledge know a Great Dane when they see one. Standing as high as 32 inches at the shoulder, Danes tower over most other dogs—and when standing on their hind legs, they’re taller than many people. Giant-sized and immensely strong, Danes nevertheless are the picture of elegance and balance, with the smooth and easy stride of born noblemen. The coat comes in different colors and patterns, perhaps the best-known being the black-and-white patchwork pattern known as “harlequin.”",
+      "Grooming" : "Grooming can be a wonderful bonding experience for you and your pet. Their strong fast-growing nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "The Great Dane is one of the most elegant and distinguished of the giant breeds. The European boar was a savage, swift, powerful and well-armed foe, requiring a superdog to hunt it.",
+      "Housing" : "Town-House.",
+      "LifeSpan" : "6-8 years.",
+      "Nutrition" : "What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.",
+      "Size" : "Large (Fully grown: 120-200 Lbs.).",
+      "Temperment" : "Friendly, patient & dependable. Good with children: Better with Supervision. Good with Other Dogs: With Supervision."
+    },
+    "Labrador" : {
+      "Activity" : "High-The Labrador Retriever is extremely active—he’s never met a backyard he didn’t like.",
+      "Cost" : "75",
+      "Description" : "The gentle, intelligent and family-friendly Labrador Retriever from Canada continues to be the most popular breed in the United States, according to AKC registration statistics. This versatile hunting breed comes in three colors - yellow, black and chocolate - and because of their desire to please their master they excel as guide dogs for the blind, as part of search-and-rescue teams or in narcotics detection with law enforcement.",
+      "Grooming" : "Beyond regular weekly grooming an occasional bath will keep them clean and looking their best. Grooming can be a wonderful bonding experience for you and your pet. Their strong fast-growing nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "The Labrador Retriever, despite his name, did not come from Labrador, but from Newfoundland. The area was populated with small water dogs, who, when bred with Newfoundlands, produced a breed referred to as the St. John's Water Dog, a prototype for the Lab of today.",
+      "Housing" : "Town-house.",
+      "LifeSpan" : "10-12 years.",
+      "Nutrition" : "What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.\"",
+      "Size" : "Medium (Fully grown: 60-80 Lbs.)",
+      "Temperment" : "Friendly and outgoing, Labs play well with others Energy Level: Very Active; Labs are high-spirited and not afraid to show it. Good with Children: Yes Good with other Dogs: With Supervision"
+    },
+    "Poodle" : {
+      "Activity" : "High-They're eager for all kinds of activity, and they enjoy keeping busy. Poodles are very intelligent and easily trained to do a number of things. Some of the activities that Poodles enjoy are tracking, hunting, agility, and obedience. The Poodle can accommodate nearly any size living quarters. The Poodle is an active breed and requires daily exercise. Poodles are very people-oriented and must be an integral part of their owner’s life to be happy.",
+      "Cost" : "75",
+      "Description" : "The Poodle, though often equated to the beauty with no brains, is exceptionally smart, active and excels in obedience training. The breed comes in three size varieties, which may contribute to why Poodle is one of the most popular breeds according to AKC® Registration statistics. Poodles can be a variety of solid colors, including white, black, apricot and gray, but never parti-colored.",
+      "Grooming" : "Regular weekly grooming with a brush and the occasional bath will keep them clean and looking their best. Grooming can be a wonderful bonding experience for you and your pet. Their strong fast-growing nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "\"For years it has been regarded as the national dog of France, where is was commonly used as a retriever as well as, the Caniche, which is derived from chien canard or duck dog. Doubtless the English word \"poodle\" comes from the German pudel or pudelin, meaning to splash in the water.\"",
+      "Housing" : "House",
+      "LifeSpan" : "10-18 years.",
+      "Nutrition" : "What you feed your dog is an individual choice, but working with your veterinarian and/or breeder will be the best way to determine frequency of meals as a puppy and the best adult diet to increase his longevity. Clean, fresh water should be available at all times.",
+      "Size" : "Medium",
+      "Temperment" : "Proud, active and very smart. Good with children: yes. Good with other dogs: With supervision"
+    },
+    "Terrier" : {
+      "Activity" : "",
+      "Cost" : "",
+      "Description" : "",
+      "Grooming" : "",
+      "History" : "",
+      "Housing" : "",
+      "LifeSpan" : "",
+      "Nutrition" : "",
+      "Size" : "",
+      "Temperment" : ""
+    },
+    "pug" : {
+      "Activity" : "Low",
+      "Cost" : "35",
+      "Description" : "\"The Pug is well described by the phrase \"multum in parvo\" which means \"a lot of dog in a small space.\" They are recognized for their even-tempers, playful personalities, and their outgoing, loving dispositions. This square and cobby breed comes in fawn or black, with a well-defined \"mask\" on his muzzle. A popular companion dog, the pug also excels in the show ring.\"",
+      "Grooming" : "Regular weekly brushing and the occasional bath will keep them clean and looking their best. Grooming can be a wonderful bonding experience for you and your pet. Their strong fast-growing nails should be trimmed regularly with a nail clipper or grinder to avoid overgrowth, splitting and cracking. Their ears should be checked regularly to avoid a buildup of wax and debris which can result in an infection. Teeth should be brushed regularly.",
+      "History" : "China is the earliest known source for the breed, where he was the pet of the Buddhist monasteries in Tibet. The breed next appeared in Japan and then in Europe, where it became the favorite for various royal courts.",
+      "Housing" : "Apartment-They are comfortable in small apartments because they need minimal exercise, but the breed can adapt easily to all situations.",
+      "LifeSpan" : "13-15 years",
+      "Nutrition" : "They enjoy their food, and care must be taken to keep them at their best weight (14 to 18 pounds).",
+      "Size" : "Small (Fully grown 14-18 Lbs.)",
+      "Temperment" : "Even-tempered, charming, mischievous and loving. Good with Children: Better with Supervision Good with other Dogs: With Supervision"
+    }
+  }
+}
