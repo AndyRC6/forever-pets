@@ -5,5 +5,6 @@ $(document).ready(function(){
 	$("#start-btn").on("click", function(){
 		window.location.href = "pet-matching.html";
 	})
+	
 
 })

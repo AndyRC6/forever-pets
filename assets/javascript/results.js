@@ -22,6 +22,7 @@ $(document).ready(function(){
 				dogName = snapshot.val().Name;
 				var desc = snapshot.val().Description.slice(0, 300) + "...";
 				$('#main-content').append(`<div class="animal-div animated fadeIn" data-dogname="${dogName}"><img class="img-thumbnail" src="assets/images/Dogs/`+dogName.replace(/ /g,"")+`.jpg"><h4>`+snapshot.val().Name+`<img src="assets/images/check.png" style="float:right;height:50px;width:50px"</h4><p>${desc}</p></div>`);
+				$("#second-nav").css("height", $("#main-content").height() + "px");
 				dogCounter++;
 				
 			};   

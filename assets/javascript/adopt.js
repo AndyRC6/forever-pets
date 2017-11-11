@@ -41,6 +41,7 @@ $(document).ready(function(){
   				desc = item.description.$t.slice(0, 300) + "...";
   			}
 		$('#adoption-info').append(`<div class="animal-div animated fadeIn" data-toggle="modal" data-target="#myModal" data-name="${item.name.$t}" data-img="${item.media.photos.photo[2].$t}" data-description="${item.description.$t}" data-sex="${item.sex.$t}" data-email="${item.contact.email.$t}" data-phone="${item.contact.phone.$t}" data-state="${item.contact.state.$t}" data-city="${item.contact.city.$t}" data-size="${item.size.$t}" data-age="${item.age.$t}"><img class="img-thumbnail" src="${item.media.photos.photo[2].$t}"><h4>${item.name.$t}</h4><p>${desc}</p></div>`);
+  			$("#second-nav").css("height", $("#main-content").height() + "px");
   			// $('#adoption-info').append(`<div class="adoption-div" data-toggle="modal" data-target="#myModal" data-name="${item.name.$t}" data-img="${item.media.photos.photo[2].$t}" data-description="${item.description.$t}" data-sex="${item.sex.$t}" data-email="${item.contact.email.$t}" data-phone="${item.contact.phone.$t}" data-state="${item.contact.state.$t}" data-city="${item.contact.city.$t}" data-size="${item.size.$t}" data-age="${item.age.$t}"><img class="img-responsive" src="${item.media.photos.photo[2].$t}"><h4>${item.name.$t}</h4></div>`);
   		});
   	})
@@ -66,8 +67,10 @@ $(document).ready(function(){
   				desc = item.description.$t.slice(0, 300) + "...";
   			}
 		$('#adoption-info').append(`<div class="animal-div animated fadeIn" data-toggle="modal" data-target="#myModal" data-name="${item.name.$t}" data-img="${item.media.photos.photo[2].$t}" data-description="${item.description.$t}" data-sex="${item.sex.$t}" data-email="${item.contact.email.$t}" data-phone="${item.contact.phone.$t}" data-state="${item.contact.state.$t}" data-city="${item.contact.city.$t}" data-size="${item.size.$t}" data-age="${item.age.$t}"><img class="img-thumbnail" src="${item.media.photos.photo[2].$t}"><h4>${item.name.$t}</h4><p>${desc}</p></div>`);
+  			$("#second-nav").css("height", $("#main-content").height() + "px");
   			// $('#adoption-info').append(`<div class="adoption-div" data-toggle="modal" data-target="#myModal" data-name="${item.name.$t}" data-img="${item.media.photos.photo[2].$t}" data-description="${item.description.$t}" data-sex="${item.sex.$t}" data-email="${item.contact.email.$t}" data-phone="${item.contact.phone.$t}" data-state="${item.contact.state.$t}" data-city="${item.contact.city.$t}" data-size="${item.size.$t}" data-age="${item.age.$t}"><img class="img-responsive" src="${item.media.photos.photo[2].$t}"><h4>${item.name.$t}</h4></div>`);
   		});
+
   		})
 	})
 

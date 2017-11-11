@@ -55,6 +55,7 @@ $(document).ready(function(){
 				videoURL = `${videoPrefix}${item.id.videoId}`;
 				$("#main-content").append(`<div class="general-video" data-toggle="modal" data-target="#vidModal" data-url="${videoURL}"><iframe class="video-iframe" height="200" width="200" src="${videoURL}" allowfullscreen="allowfullscreen"></iframe></div>`);
 				console.log(videoURL);
+				$("#second-nav").css("height", $("#main-content").height() + "px");
 			})
 		})
 
