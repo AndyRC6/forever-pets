@@ -25,4 +25,6 @@ $(document).ready(function(){
 		window.location.href = `animal-caresheets.html?dog=${$(this).attr("data-dogname")}`;
 	})
 
+	
+
 });

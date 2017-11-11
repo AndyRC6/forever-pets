@@ -32,7 +32,13 @@ main{
 	color:white !important;
 	cursor:pointer;
 	background-color:#738F9C;
+	transition:background-color 1s ease;
 }
+
+.animal-div:hover{
+	background-color: rgb(63,158,183);
+}
+
 
 .animal-div a{
 	text-decoration: none;
@@ -46,6 +52,8 @@ main{
 	margin-right:20px;
 	float:left;
 }
+
+
 
 #adopt-div{
 	background-color:#738F9C;
