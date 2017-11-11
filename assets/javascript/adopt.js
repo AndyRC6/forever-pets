@@ -32,7 +32,7 @@ $(document).ready(function(){
 		breed = $('#breed').val();
 		location = $('#location').val();
 		offset = 0;
-		queryUrl = `http://api.petfinder.com/pet.find?format=json&key=${key}&animal=${animal}&breed=${breed}&location=${location}&offset=${offset}&count=25&callback=?`;
+		queryUrl = `https://api.petfinder.com/pet.find?format=json&key=${key}&animal=${animal}&breed=${breed}&location=${location}&offset=${offset}&count=25&callback=?`;
 		console.log(queryUrl);
 		$.getJSON(queryUrl).done(function(response){
   		response.petfinder.pets.pet.forEach(function(item){
