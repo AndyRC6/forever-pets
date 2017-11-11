@@ -57,7 +57,7 @@ $(document).ready(function(){
 	$("#next-btn").on("click", function(){
 		$("#adoption-info").empty();
 		offset = offset + 25;
-		queryUrl = `http://api.petfinder.com/pet.find?format=json&key=${key}&animal=${animal}&breed=${breed}&location=${location}&offset=${offset}&count=25&callback=?`;
+		queryUrl = `https://api.petfinder.com/pet.find?format=json&key=${key}&animal=${animal}&breed=${breed}&location=${location}&offset=${offset}&count=25&callback=?`;
 		$.getJSON(queryUrl).done(function(response){
   		response.petfinder.pets.pet.forEach(function(item){
   			console.log(item);
@@ -75,7 +75,7 @@ $(document).ready(function(){
 		if(offset > 0){
 			$("#adoption-info").empty();
 			offset = offset - 25;
-			queryUrl = `http://api.petfinder.com/pet.find?format=json&key=${key}&animal=${animal}&breed=${breed}&location=${location}&offset=${offset}&count=25&callback=?`;
+			queryUrl = `https://api.petfinder.com/pet.find?format=json&key=${key}&animal=${animal}&breed=${breed}&location=${location}&offset=${offset}&count=25&callback=?`;
 			$.getJSON(queryUrl).done(function(response){
   			response.petfinder.pets.pet.forEach(function(item){
   			console.log(item);
